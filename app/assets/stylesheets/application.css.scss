@@ -18,4 +18,62 @@
  *= require_self
  */
 
+/* Signup & Login form styling */
+
+
+.reg-bg {
+  padding-top: 4em;
+  height: 100%;
+}
+
+body#reg-bg {
+  background-image: image-url('regback.jpg');
+  background: image-url('regback.jpg') no-repeat-y 50% 50% fixed;
+  background-size: 100% auto;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  height: 100%;
+  width: auto;
+}
+
+.log-in {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  border: none;
+}
+
+.panel {
+  border-radius: 8px;
+}
+
+.panel-heading {
+  h1 {
+    text-align: center;
+  }
+}
+
+.alert {
+  margin-bottom: 0px;
+}
+
+.login-bg {
+  padding-top: 4em;
+  height: 100%;
+}
+
+body#login-bg {
+  background-image: image-url('logback.jpg');
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100%;
+}
+
+.div.log-in.panel {
+  padding-top: 4em;
+}
+
 
