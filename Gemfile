@@ -40,9 +40,13 @@ gem 'bootstrap-sass', '~> 3.3.7'
 # Use Devise for authentication
 gem 'devise', '~> 4.2.0'
 
+# Use Paperclip for image uploading
+gem 'paperclip'
+
 group :development, :test do
   # Use sqlite3 as the database for Active Record
   gem 'sqlite3'
+  gem 'better_errors'
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platform: :mri
 end
