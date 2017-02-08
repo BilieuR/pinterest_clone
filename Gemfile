@@ -43,6 +43,16 @@ gem 'devise', '~> 4.2.0'
 # Use Paperclip for image uploading
 gem 'paperclip'
 
+# Use Jquery turbolinks
+gem 'jquery-turbolinks'
+
+# Use Masonry for pin index formatting
+gem 'masonry-rails', '~> 0.2.4'
+
+# Use Will_paginate gems for pagination
+gem 'will_paginate'
+gem 'will_paginate-bootstrap'
+
 group :development, :test do
   # Use sqlite3 as the database for Active Record
   gem 'sqlite3'
