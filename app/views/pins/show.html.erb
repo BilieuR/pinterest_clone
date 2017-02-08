@@ -6,10 +6,11 @@
       </div>
 
       <div class="panel-body">
-        <%= @pin.description %>
+        <%= @pin.description %><br>
+        <br><%= @pin.user.name %><br>
 
         <% if @pin.user == current_user %>
-          <%= link_to 'Edit', edit_pin_path(@pin) %> |
+          <%= link_to 'Edit', edit_pin_path(@pin) %>
         <% end %>
         <br>
         <%= link_to 'Back', pins_path %>

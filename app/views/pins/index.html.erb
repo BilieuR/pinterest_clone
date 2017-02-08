@@ -6,6 +6,7 @@
 
         <div class="panel-body">
           <%= pin.description %><br>
+          <br><strong><%= pin.user.name if pin.user %></strong>
         </div>
 
         <% if pin.user == current_user %>
